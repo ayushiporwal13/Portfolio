@@ -5,7 +5,7 @@
         "short": "SMCF",
         "desc": "Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.",
         "repourl": "https://github.com/ayushiporwal13/Sea-Monster-Crowd-Funding",
-        "websiteurl": "",
+        "websiteurl": "https://sea-monster-crowd-funding.web.app/",
         "imgurl": "https://i.imgur.com/eqWandc.gif"
     },
     {
@@ -32,7 +32,7 @@
         "short": "FFDT",
         "desc": " Test your knowledge of the culinary world with these fun and fascinating food and drink trivia questions.This app allow users to enter an answer and move backwards and forwards through the list of cards",
         "repourl": "https://github.com/ayushiporwal13/Fun-Food-Drink-Trivia",
-        "websiteurl": "",
+        "websiteurl": "https://fun-food-and-drink-trivia.web.app/",
         "imgurl": "https://i.imgur.com/sCm0ZhO.gif"
     },
     {
@@ -41,7 +41,7 @@
         "short": "HM",
         "desc": "This app allow users to discover new things by clicking through random new stuff. The web app will display one element at a time with information through API calls in a random fashion. The user can influence what they want to see next via a ban list!",
         "repourl": "https://github.com/ayushiporwal13/Harvard-Museums",
-        "websiteurl": "",
+        "websiteurl": "https://harvard-museums-dd186.web.app/",
         "imgurl": "https://i.imgur.com/PthpKJB.gif"
     },
     {
@@ -52,5 +52,59 @@
         "repourl": "https://github.com/ayushiporwal13/Recipe-LookUp",
         "websiteurl": "https://recipe-lookup-3e10f.web.app/",
         "imgurl": "https://i.imgur.com/zUhkqXn.gif"
+    },
+    {
+        "id": "7",
+        "title": "Bet Web Application",
+        "short": "BW",
+        "desc": "Developed a dynamic forum application named Bet targeting Gen Z thrill-seekers, leveraging React and Supabase technologies. Implemented all four CRUD operations, enabling users to seamlessly create, read, update, and delete challenges, enhancing the overall user experience.",
+        "repourl": "https://github.com/ayushiporwal13/Bet-Web-Application-React-Supabase-",
+        "websiteurl": "https://earnest-hummingbird-509e8b.netlify.app/",
+        "imgurl": "https://i.imgur.com/6mg2x1T.png"
+    },
+    {
+        "id": "8",
+        "title": "Crewmate Management Application",
+        "short": "CM",
+        "desc": "Created a customizable web app to manage crewmates. User-friendly interface with form for adding, categorizing, and updating crewmates. Unique links for each crewmate and advanced functionality provided. Designed to enhance user experience.",
+        "repourl": "https://github.com/ayushiporwal13/Crewmate-Management-App",
+        "websiteurl": "https://crewmates-3dec0.web.app/",
+        "imgurl": "https://i.imgur.com/i7ssnCd.gif"
+    },
+    {
+        "id": "9",
+        "title": "Travel Diary",
+        "short": "TD",
+        "desc": "Developed a dynamic web application allowing users to share their travel experiences through visually appealing posts, including titles, textual content, and images. Implemented a comprehensive feature set, including a user-friendly create form, a home feed displaying posts with essential details, and a detailed post page offering in-depth travel stories, images, comments, and upvote functionality.",
+        "repourl": "https://github.com/ayushiporwal13/TravelDiary",
+        "websiteurl": "https://travel-diary-14968.web.app/",
+        "imgurl": "https://i.imgur.com/4hHlXip.gif"
+    },
+    {
+        "id": "10",
+        "title": "Eagle Quest",
+        "short": "EQ",
+        "desc": "Designed and developed the Eagle Quest game in the GET app for Cal State LA students, aiming to enhance campus engagement. Employed a Design Thinking approach, integrating user-centered principles with game mechanics for intuitive campus exploration. Implemented features like centralized campus information, gamified participation, and real-time exploration, fostering vibrant community engagement.",
+        "repourl": "https://www.figma.com/file/MPTKA5tA6oaqb9KD7o33b8/EagleQuest-Game-GET-Module-(Copy)?type=design&node-id=35%3A3&mode=design&t=5oqu6EsDckVctGnI-1",
+        "websiteurl": "https://www.figma.com/proto/MPTKA5tA6oaqb9KD7o33b8/EagleQuest-Game-GET-Module-(Copy)?type=design&node-id=2245-422&t=3HUlDmVtDJ3sV6Ot-0&scaling=scale-down&page-id=35%3A3",
+        "imgurl": "https://i.imgur.com/EATtTzR.gif"
+    },
+    {
+        "id": "11",
+        "title": "Health Insurance Market Analysis",
+        "short": "HIMA",
+        "desc": "Developed ETL Pipelines: Engineered efficient Extract, Transform, Load (ETL) pipelines using Hadoop and Hive to clean and process raw health insurance data, enhancing data quality and accessibility.",
+        "repourl": "https://github.com/ayushiporwal13/HealthInsuranceAnalysis",
+        "websiteurl": "https://github.com/ayushiporwal13/HealthInsuranceAnalysis",
+        "imgurl": "https://i.imgur.com/I88Z0nz.png"
+    },
+    {
+        "id": "12",
+        "title": "HealthBot",
+        "short": "HB",
+        "desc": "Pioneered HealthBot project, utilizing advanced conversational AI to revolutionize healthcare interactions. Orchestrated seamless SAP integration, ensuring robust data management for efficient health-related information handling. Engineered a user-friendly HealthBot interface, advancing healthcare communication with advanced natural language understanding.",
+        "repourl": "https://github.com/ayushiporwal13/HealthBot",
+        "websiteurl": "https://healthbot-8881c.web.app/",
+        "imgurl": "https://i.imgur.com/s34nIPb.gif"
     }
 ]

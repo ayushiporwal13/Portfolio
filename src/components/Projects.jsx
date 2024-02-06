@@ -8,12 +8,13 @@ import Data from "../assets/Data.json";
 import { Grid } from "@mui/material";
 
 export default function Projects() {
+  const reversedData = [...Data].reverse(); // Reverse the order of objects in Data array
   return (
     <Grid container spacing={2} wrap="wrap" rowGap={10} justifyContent="space-evenly"  id='Projects' style={{marginTop:'5%'}}>
         <Typography variant="h4" component="div" gutterBottom item width='100%'>
             Projects
         </Typography>
-      {Data.map((data) => {
+      {reversedData.map((data) => { // Use reversedData instead of Data
         return (
             <Card sx={{ maxWidth: 345 }} key={data.id} item >
               <CardMedia
