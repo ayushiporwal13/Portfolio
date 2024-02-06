@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "Sea Monster Crowd Funding",
+        "short": "SMCF",
+        "desc": "Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.",
+        "repourl": "https://github.com/ayushiporwal13/Sea-Monster-Crowd-Funding",
+        "websiteurl": "",
+        "imgurl": "https://i.imgur.com/eqWandc.gif"
+    },
+    {
+        "id": "2",
+        "title": "Western Casewriters Association",
+        "short": "WCA",
+        "desc": "Western Casewriters Association (WCA) is the Western regional association of business casewriters. Its purpose is to train, develop and support business case writing for research and pedagogical purposes.",
+        "repourl": "https://github.com/ayushiporwal13/WCA.github.io",
+        "websiteurl": "https://www.westerncasewriters.org",
+        "imgurl": "https://i.imgur.com/4mreu2W.png"
+    },
+    {
+        "id": "3",
+        "title": "Learn to Code",
+        "short": "LC",
+        "desc": "Helps you naviagate through various coding languages. You can click on the details button to learn more about the differnt languages.",
+        "repourl": "https://github.com/ayushiporwal13/LearntoCode",
+        "websiteurl": "https://learn-to-code-8264d.web.app/",
+        "imgurl": "https://i.imgur.com/PvHhcvu.gif"
+    },
+    {
+        "id": "4",
+        "title": "Fun Food Drink Trivia",
+        "short": "FFDT",
+        "desc": " Test your knowledge of the culinary world with these fun and fascinating food and drink trivia questions.This app allow users to enter an answer and move backwards and forwards through the list of cards",
+        "repourl": "https://github.com/ayushiporwal13/Fun-Food-Drink-Trivia",
+        "websiteurl": "",
+        "imgurl": "https://i.imgur.com/sCm0ZhO.gif"
+    },
+    {
+        "id": "5",
+        "title": "Harvard Museums",
+        "short": "HM",
+        "desc": "This app allow users to discover new things by clicking through random new stuff. The web app will display one element at a time with information through API calls in a random fashion. The user can influence what they want to see next via a ban list!",
+        "repourl": "https://github.com/ayushiporwal13/Harvard-Museums",
+        "websiteurl": "",
+        "imgurl": "https://i.imgur.com/PthpKJB.gif"
+    },
+    {
+        "id": "6",
+        "title": "Recipe LookUp",
+        "short": "RL",
+        "desc": "Search for a wide variety of recipes. Users have the flexibility to set specific health score preferences and select dietary restrictions to refine their recipe choices. Also displays information graphically for healthscore, weight score & price per serving.",
+        "repourl": "https://github.com/ayushiporwal13/Recipe-LookUp",
+        "websiteurl": "https://recipe-lookup-3e10f.web.app/",
+        "imgurl": "https://i.imgur.com/zUhkqXn.gif"
+    }
+]
