@@ -106,5 +106,14 @@
         "repourl": "https://github.com/ayushiporwal13/HealthBot",
         "websiteurl": "https://healthbot-8881c.web.app/",
         "imgurl": "https://i.imgur.com/s34nIPb.gif"
+    },
+    {
+        "id": "13",
+        "title": "Creatoverse",
+        "short": "CV",
+        "desc": "Developed a React-based app for managing content creators' profiles using React, JavaScript, and Bootstrap. Implemented CRUD functionality to streamline profile creation, updates, and discovery, improving user experience and content management efficiency.",
+        "repourl": "https://github.com/ayushiporwal13/creatorverse",
+        "websiteurl": "https://creatoverse-cc280.web.app/",
+        "imgurl": "https://i.imgur.com/Glyb18Y.gif"
     }
 ]
