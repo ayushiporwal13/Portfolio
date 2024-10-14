@@ -6,9 +6,10 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import SchoolIcon from '@mui/icons-material/School';
+import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import CodeTwoToneIcon from "@mui/icons-material/CodeTwoTone";
-import JavascriptTwoToneIcon from "@mui/icons-material/JavascriptTwoTone";
+import CodeIcon from "@mui/icons-material/Code";
+import JavascriptIcon from "@mui/icons-material/Javascript";
 import Typography from "@mui/material/Typography";
 
 export default function Work() {
@@ -28,13 +29,13 @@ export default function Work() {
             Present
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot>
-              <SchoolIcon />
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+            <TimelineDot color="success">
+              <SchoolIcon/>
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
             <Typography variant="h6" component="span">
               Student at CalState
             </Typography>
@@ -46,19 +47,44 @@ export default function Work() {
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+             Summer 2024
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
+            <TimelineDot color="success">
+              <DeveloperBoardIcon/>
+            </TimelineDot>
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
+            <Typography variant="h6" component="span">
+              Software Engineer Intern
+            </Typography>
+            <Typography>NielsenIQ</Typography>
+            <Typography>Automated market updates</Typography>
+            <Typography>Improved customizable reporting efficiency</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
             variant="body2"
             color="text.secondary"
           >
             2021 - 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot color="primary">
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+            <TimelineDot color="success">
               <LaptopMacIcon />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
             <Typography variant="h6" component="span">
               Project Manager
             </Typography>
@@ -78,13 +104,13 @@ export default function Work() {
             2020 - 2021
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot color="primary" variant="outlined">
-              <CodeTwoToneIcon />
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+            <TimelineDot color="success">
+              <CodeIcon />
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
             <Typography variant="h6" component="span">
               Software Engineer
             </Typography>
@@ -105,12 +131,12 @@ export default function Work() {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
-            <TimelineDot color="secondary">
-              <JavascriptTwoToneIcon />
+            <TimelineDot color="success">
+              <JavascriptIcon />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
-          <TimelineContent sx={{ py: "12px", px: 2 }}>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
             <Typography variant="h6" component="span">
               System Engineer
             </Typography>
