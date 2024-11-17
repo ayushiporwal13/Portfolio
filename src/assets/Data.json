@@ -118,6 +118,15 @@
     },
     {
         "id": "14",
+        "title": "US College Net Price Prediction Comparing ML Models",
+        "short": "ML Model",
+        "desc": "This paper explores machine learning algorithms on US College Scorecard data to predict net prices for public and private colleges. Using four regression models, developed a predictive model for equitable cost forecasting based on government-published data.",
+        "repourl": "https://github.com/ayushiporwal13/US_College_Net_Price_Prediction_ML_Regression_Models",
+        "websiteurl": "https://arxiv.org/abs/2406.08071",
+        "imgurl": "https://i.imgur.com/XR8vmyw.png"
+    },
+    {
+        "id": "15",
         "title": "Creatoverse",
         "short": "CV",
         "desc": "Developed a React-based app for managing content creators' profiles using React, JavaScript, and Bootstrap. Implemented CRUD functionality to streamline profile creation, updates, and discovery, improving user experience and content management efficiency.",
