@@ -100,6 +100,15 @@
     },
     {
         "id": "12",
+        "title": "MiOra",
+        "short": "MiOra",
+        "desc": "Our Health Projects” webpage for MiOra using HTML, CSS, and Figma, effectively showcasing health initiatives in cancer disparities, immigrant health, and men’s health awareness to increase engagement among students and funders, and support MiOra’s mission of accessible healthcare advocacy.",
+        "repourl": "https://github.com/ayushiporwal13/MiOra",
+        "websiteurl": "https://ayushiporwal13.github.io/MiOra/",
+        "imgurl": "https://i.imgur.com/iRia90A.gif"
+    },
+    {
+        "id": "13",
         "title": "HealthBot",
         "short": "HB",
         "desc": "Pioneered HealthBot project, utilizing advanced conversational AI to revolutionize healthcare interactions. Orchestrated seamless SAP integration, ensuring robust data management for efficient health-related information handling. Engineered a user-friendly HealthBot interface, advancing healthcare communication with advanced natural language understanding.",
@@ -108,7 +117,7 @@
         "imgurl": "https://i.imgur.com/s34nIPb.gif"
     },
     {
-        "id": "13",
+        "id": "14",
         "title": "Creatoverse",
         "short": "CV",
         "desc": "Developed a React-based app for managing content creators' profiles using React, JavaScript, and Bootstrap. Implemented CRUD functionality to streamline profile creation, updates, and discovery, improving user experience and content management efficiency.",
