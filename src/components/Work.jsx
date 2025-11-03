@@ -4,12 +4,9 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
+import WorkIcon from '@mui/icons-material/Work';
 import TimelineDot from "@mui/lab/TimelineDot";
 import SchoolIcon from '@mui/icons-material/School';
-import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import CodeIcon from "@mui/icons-material/Code";
-import JavascriptIcon from "@mui/icons-material/Javascript";
 import Typography from "@mui/material/Typography";
 
 export default function Work() {
@@ -31,15 +28,41 @@ export default function Work() {
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
             <TimelineDot color="success">
+              <WorkIcon/>
+            </TimelineDot>
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
+            <Typography variant="h6" component="span">
+              Senior Software Engineer
+            </Typography>
+            <Typography><i>Revinate</i></Typography>
+            <Typography>Built centralized dashboard</Typography>
+            <Typography>Automated real-time monitoring</Typography>
+            <Typography>Boosted efficiency 40%</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="text.secondary"
+          >
+            2023-2025
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
+            <TimelineDot color="success">
               <SchoolIcon/>
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2, color: "InactiveBorder"}}>
             <Typography variant="h6" component="span">
-              Student at CalState
+              Graduate Student (MS in IS)
             </Typography>
-            <Typography>Major - Information System</Typography>
+            <Typography><i>California State University - Los Angeles</i></Typography>
             <Typography>GDSC Tech Lead</Typography>
             <Typography>Codepath Student</Typography>
           </TimelineContent>
@@ -56,7 +79,7 @@ export default function Work() {
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             <TimelineDot color="success">
-              <DeveloperBoardIcon/>
+              <WorkIcon/>
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
@@ -64,7 +87,7 @@ export default function Work() {
             <Typography variant="h6" component="span">
               Software Engineer Intern
             </Typography>
-            <Typography>NielsenIQ</Typography>
+            <Typography><i>NielsenIQ</i></Typography>
             <Typography>Automated market updates</Typography>
             <Typography>Improved customizable reporting efficiency</Typography>
           </TimelineContent>
@@ -80,7 +103,7 @@ export default function Work() {
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
             <TimelineDot color="success">
-              <LaptopMacIcon />
+              <WorkIcon />
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
@@ -88,7 +111,7 @@ export default function Work() {
             <Typography variant="h6" component="span">
               Project Manager
             </Typography>
-            <Typography>Tata Consultancy Services</Typography>
+            <Typography><i>Tata Consultancy Services</i></Typography>
             <Typography>Managed 17-member team</Typography>
             <Typography>Architected front-end</Typography>
             <Typography>Agile methodology collaboration</Typography>
@@ -106,7 +129,7 @@ export default function Work() {
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
             <TimelineDot color="success">
-              <CodeIcon />
+              <WorkIcon />
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
           </TimelineSeparator>
@@ -114,7 +137,7 @@ export default function Work() {
             <Typography variant="h6" component="span">
               Software Engineer
             </Typography>
-            <Typography>Tata Consultancy Services</Typography>
+            <Typography><i>Tata Consultancy Services</i></Typography>
             <Typography>NGP Tool Proficiency</Typography>
             <Typography>Code Optimization 80%</Typography>
             <Typography>React App Development</Typography>
@@ -132,7 +155,7 @@ export default function Work() {
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             <TimelineDot color="success">
-              <JavascriptIcon />
+              <WorkIcon />
             </TimelineDot>
             <TimelineConnector sx={{ bgcolor: "secondary.main" }}/>
           </TimelineSeparator>
@@ -140,7 +163,7 @@ export default function Work() {
             <Typography variant="h6" component="span">
               System Engineer
             </Typography>
-            <Typography>Tata Consultancy Services</Typography>
+            <Typography><i>Tata Consultancy Services</i></Typography>
             <Typography>Modularized Email Campaigns</Typography>
             <Typography>Compatibility Testing Litmus</Typography>
             <Typography>Mobile-Ready Web Apps</Typography>
